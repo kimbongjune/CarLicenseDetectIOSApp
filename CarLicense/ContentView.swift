@@ -13,7 +13,7 @@ struct ScrollDetector: UIViewRepresentable {
         self.onDraggingEnd = onDraggingEnd
         self.onRefresh = onRefresh
     }
-
+//
     /// ScrollView Delegate Methods
     public class Coordinator: NSObject, UIScrollViewDelegate {
         init(parent: ScrollDetector) {

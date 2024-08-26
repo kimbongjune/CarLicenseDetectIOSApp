@@ -20,7 +20,7 @@ struct ApiResponse: Codable {
         case licensePlateImage = "license_plate_image"
     }
 }
-
+//
 class ApiService {
     static let shared = ApiService()
     private let baseURL = URL(string: "http://192.168.0.46:5500")! // 서버 주소
